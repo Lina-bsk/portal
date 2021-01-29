@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portal</title>
+    <!-- <link rel="icon" href="img/favicon.ico" type="image/x-icon"> -->
+    <link rel="preload" href="fonts/opensans-regular-webfont.woff2" as="font">
+    <link rel="preload" href="fonts/opensans-semibold-webfont.woff2" as="font">
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <div class="container-body">
+    <header class="page-header">
+      <div class="container-top page-header__block">
+        <a href="index.html" class="logo">
+          <img class="logo__img" src="img/logo.png" srcset="img/logo@2x.png 2x" alt="portal logo">
+        </a>
+        <button type="button" class="toggle" aria-label="menu"><span>menu</span></button>
+        <nav class="navigation navigation--js">
+
+          <a href="now-showing.html" class="navigation__link">now showing</a>
+          <a href="coming-soon.html" class="navigation__link">coming soon</a>
+          <a href="tickets.html" class="navigation__link">Buy ticket</a>
+
+          <a href="search" class="navigation__link"><svg class="navigation__link-search" width="22" height="24">
+            <use xlink:href="img/sprite.svg#icon"></use>
+            </svg><span class="visually-hidden">Search</span></a>
+            <a href="contact.html" class="navigation__link navigation__link--contact">contact</a>
+          </nav>
+        </div>
+      </header>

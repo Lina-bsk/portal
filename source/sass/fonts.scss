@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/opensans-regular-webfont.woff") format("woff"),
+    url("../fonts/opensans-regular-webfont.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("../fonts/opensans-semibold-webfont.woff") format("woff"),
+    url("../fonts/opensans-semibold-webfont.woff2") format("woff2");
+}

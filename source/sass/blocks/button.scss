@@ -1,0 +1,43 @@
+.button {
+min-width: 110px;
+padding: 8px 10px;
+border: 2px solid transparent;
+border-radius: 6px;
+font-weight: 600;
+text-transform: uppercase;
+color: inherit;
+display: inline-block;
+text-align: center;
+box-sizing: border-box;
+z-index: 1000;
+transition: 0.2s;
+letter-spacing: 0.1em;
+background-color: $white;
+color: $main;
+
+  &--b {
+    background-color: $top-color;
+    color: $white;
+    margin-right: 5px;
+
+    &:hover,
+    &:focus {
+      color: $main;
+    }
+  }
+
+  &--w {
+    &:hover,
+    &:focus {
+      border-color: $top-color;
+      color: $top-color;
+    }
+  }
+
+  @media (min-width: $tablet-width) {
+    min-width: 140px;
+    padding: 11px 24px;
+    margin-right: 10px;
+  }
+
+}

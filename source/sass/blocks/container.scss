@@ -1,0 +1,36 @@
+.container-body {
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.container {
+  box-sizing: border-box;
+  min-width: 320px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    padding: 0 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 0 30px;
+    max-width: 1390px;
+  }
+}
+
+.container-top {
+  box-sizing: border-box;
+  min-width: 320px;
+  width: 100%;
+  padding: 0 40px;
+  margin: 0 auto;
+  overflow-x: hidden;
+
+  @media (min-width: $desktop-width) {
+    max-width: 1640px;
+    padding: 0 50px;
+  }
+}

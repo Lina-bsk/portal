@@ -1,0 +1,106 @@
+@@include('_include/header.html')
+<main role="main">
+  <section class="slider">
+    <div class="slider__items">
+      <section class="slider__item">
+        <img class="slider__img" src="img/poster1.jpg" srcset="img/poster1@2x.jpg 2x" alt="onward">
+        <div class="container-top slider__container">
+          <section class="slider__info">
+            <div class="slider__info-title">
+              <h2 class="title">onward</h2>
+              <h3 class="slider__subtitle">Animation, Adventure</h3>
+            </div>
+            <div class="slider__buttons-info">
+              <a href="#" class="button button--b">Buy ticket</a>
+              <a href="#" class="button button--w">Trailer</a>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section class="slider__item">
+        <img class="slider__img" src="img/poster2.jpg" srcset="img/poster2@2x.jpg 2x" alt="onward">
+        <div class="container-top slider__container">
+          <section class="slider__info">
+            <div class="slider__info-title">
+              <h2 class="title">no time to die</h2>
+              <h3 class="slider__subtitle">Action, Adventure, Thriller</h3>
+            </div>
+            <div class="slider__buttons-info">
+              <div class="slider__info-soon">8 may</div>
+              <a href="#" class="button button--w">Trailer</a>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section class="slider__item">
+        <img class="slider__img" src="img/poster3.jpg" srcset="img/poster3@2x.jpg 2x" alt="onward">
+        <div class="container-top slider__container">
+          <section class="slider__info">
+            <div class="slider__info-title">
+              <h2 class="title">fantasy island</h2>
+              <h3 class="slider__subtitle">Adventure, Fantasy, Horror</h3>
+            </div>
+            <div class="slider__buttons-info">
+              <a href="#" class="button button--b">Buy ticket</a>
+              <a href="#" class="button button--w">Trailer</a>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+    <div class="slider__buttons">
+      <button type="button" id="prevBtn" class="slider__button slider__button--back">back</button>
+      <button type="button" id="nextBtn" class="slider__button slider__button--next">next</button>
+    </div>
+  </section>
+  <div class="container">
+    <div class="tabs">
+      <button type="button" class="button">now showing</button>
+      <button type="button" class="button">coming soon</button>
+    </div>
+    <div class="tab-content">
+
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/jDKEol8SCv8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+    @@include('_include/card.html', {
+    "href": "https://youtu.be/jDKEol8SCv8",
+    "img": "img/card1.jpg",
+    "alt": "wonder woman 1984",
+    "title": "wonder woman 1984",
+    "type": "3d",
+    "subtitle": "Action, Adventure, Fantasy"
+  })
+
+   @@include('_include/card.html', {
+    "href": "https://youtu.be/gn5QmllRCn4",
+    "img": "img/card1.jpg",
+    "alt": "wonder woman 1984",
+    "title": "wonder woman 1984",
+    "type": "3d",
+    "subtitle": "Action, Adventure, Fantasy"
+  })
+
+   @@include('_include/card.html', {
+    "href": "https://www.youtube.com/watch?v=jDKEol8SCv8",
+    "img": "img/card1.jpg",
+    "alt": "wonder woman 1984",
+    "title": "wonder woman 1984",
+    "type": "3d",
+    "subtitle": "Action, Adventure, Fantasy"
+  })
+
+  @@include('_include/card.html', {
+    "href": "https://www.youtube.com/watch?v=jDKEol8SCv8",
+    "img": "img/card1.jpg",
+    "alt": "wonder woman 1984",
+    "title": "wonder woman 1984",
+    "type": "3d",
+    "subtitle": "Action, Adventure, Fantasy"
+  })
+
+    </div>
+  </div>
+</main>
+@@include('_include/footer.html')
